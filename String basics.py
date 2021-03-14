@@ -16,3 +16,12 @@ print(text)
 print(text[0])
 print(text[0:3])
 print(text[1:-1])
+
+first = 'John'
+last = 'Smith'
+msg = first +' ['+last+'] is a coder'
+msg_formatted = f'{first} [{last}] is a coder'
+# curly braces define the placeholders
+print(msg)
+# formatted string is very useful. Easy to visualize
+print(msg_formatted)
